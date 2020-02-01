@@ -33,7 +33,7 @@
                                 <a href="index2.jsp">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a href="ideahub.jsp">post an idea</a>
+                                <a href="ideahub.jsp">Create your own profile</a>
                             </li>
                             <li class="nav-item">
                                 <a href="viewuseridea">view my ideas</a>
