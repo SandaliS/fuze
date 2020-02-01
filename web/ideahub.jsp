@@ -309,7 +309,7 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <h1>Konnect</h1>
+                        <h1>Fuze</h1>
                     </div>
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="navbar-collapse">
@@ -318,7 +318,7 @@
                                 <a href="index2.jsp">Home</a>
                             </li>
                             <li class="nav-item active">
-                                <a href="ideahub.jsp">post an idea</a>
+                                <a href="ideahub.jsp">Create your own profile</a>
                             </li>
                             <li class="nav-item">
                                 <a href="viewuseridea">view my ideas</a>
@@ -370,10 +370,10 @@
                     </div>
                     <div class="col-md-8 col-md-offset-2 text-center">
                         <div class="editContent">
-                            <h1 wp-cz-control="blocks_header_3_title" wp-cz-control-label="Title" wp-cz-control-section="blocks_header_3" wp-cz-theme-mod="blocks_header_3_title">Konnect</h1>
+                            <h1 wp-cz-control="blocks_header_3_title" wp-cz-control-label="Title" wp-cz-control-section="blocks_header_3" wp-cz-theme-mod="blocks_header_3_title">Fuze</h1>
                         </div>
                         <div class="editContent">
-                            <p class="lead" wp-cz-control="blocks_header_3_text" wp-cz-control-label="Text" wp-cz-control-type="textarea" wp-cz-control-section="blocks_header_3" wp-cz-theme-mod="blocks_header_3_text">Konnect Ideahub</p>
+                            <p class="lead" wp-cz-control="blocks_header_3_text" wp-cz-control-label="Text" wp-cz-control-type="textarea" wp-cz-control-section="blocks_header_3" wp-cz-theme-mod="blocks_header_3_text">Fuze Profile Portal</p>
                             <form role="form" action="idea_control" method="POST" enctype="multipart/form-data"> 
                                 <div class="form-group"> 
                                     <label class="control-label" for="exampleInputEmail1">Summary</label>                                     
@@ -390,6 +390,15 @@
                                     <textarea name="desc" class="form-control" rows="3" id="formInput26" placeholder="mention as comma separated list ex : - java, php, python" required="required"></textarea>
                                 </div>
 
+                                <div class="form-group"> 
+                                    <label class="control-label" for="exampleInputEmail1">Experience</label>                                     
+                                    <input type="text" name="idea" class="form-control" id="exampleInputEmail1" placeholder="Industry Experience" required="required"> 
+                                </div>
+                                
+                                <div class="form-group"> 
+                                    <label class="control-label" for="exampleInputEmail1">Preferred fields</label>                                     
+                                    <input type="text" name="idea" class="form-control" id="exampleInputEmail1" placeholder="Mention your preferred fields as comma seperated list eg:- QA engineer,web developer, backend developer" required="required"> 
+                                </div>
                                 <div class="form-group"> 
                                     <label class="control-label" for="exampleInputEmail1">Experience</label>                                     
                                     <input type="text" name="idea" class="form-control" id="exampleInputEmail1" placeholder="Industry Experience" required="required"> 
